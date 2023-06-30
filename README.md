@@ -1,7 +1,12 @@
+[![](https://jitpack.io/v/avew/spring-boot-starter-minio.svg)](https://jitpack.io/#avew/spring-boot-starter-minio)
+[![CircleCI](https://circleci.com/gh/avew/spring-boot-starter-minio.svg?style=shield)](https://circleci.com/gh/avew/spring-boot-starter-minio)
+
 # Spring Boot Starter Minio
 
 Spring Boot Starter which allow to connect to a Minio bucket, to save, get, remove an object. The starter also embed 
 metrics and health check for Actuator.  
+
+
 
 ## Quick start
 
