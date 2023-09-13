@@ -61,6 +61,9 @@ public class MinioNotificationConfiguration implements ApplicationContextAware {
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         for (String beanName : applicationContext.getBeanDefinitionNames()) {
+            if("minioNotificationConfiguration".equals(beanName)) {
+    		continue;
+    	    }
             Object obj = applicationContext.getBean(beanName);
 
             Class<?> objClz = obj.getClass();
